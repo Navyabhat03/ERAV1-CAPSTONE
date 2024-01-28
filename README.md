@@ -1,6 +1,6 @@
 # 🤖 Multi-modal LLM
 
-Train a multi-modal LLM that takes text, image and audio as inputs.
+This is a multi-modal LLM that takes text, image and audio as inputs.
 
 <img width="332" alt="image" src="https://github.com/Navyabhat03/ERAV1-CAPSTONE/assets/60884505/6bc36b13-f231-4b2f-bc6e-69ed471b24fa">
 
