@@ -5,7 +5,7 @@ This is a multi-modal LLM that takes text, image and audio as inputs.
 <img width="332" alt="image" src="https://github.com/Navyabhat03/ERAV1-CAPSTONE/assets/60884505/6bc36b13-f231-4b2f-bc6e-69ed471b24fa">
 
 
-🤗[**Space Link**](https://huggingface.co/spaces/Navyabhat/MultiModal-Phi2)
+🤗[**Space Link**](https://huggingface.co/spaces/Navyabhat/Capstone_Project)
 
 ## Phi2 : Pretraining LLM from Scratch
 ### Details
@@ -14,8 +14,7 @@ This is a multi-modal LLM that takes text, image and audio as inputs.
 3. Pretraining approach: Pretraining using QLoRA.
 
 ### Training Logs
-![image](https://github.com/RaviNaik/ERA-CAPSTONE/assets/23289802/a6c143d0-c63c-4227-804f-93a4a8b74f7f)
-
+![image](https://github.com/Navyabhat03/ERAV1-CAPSTONE/assets/60884505/050c6151-4365-4e37-8591-a3a1c6674ead)
 
 ## Phi2 : Multimodal Finetuning
 ### Details
@@ -91,34 +90,27 @@ print(output)
 - **Audio Processing**: Audio data is processed using WhisperProcessor and WhisperForConditionalGeneration from transformers.
 - **Text Generation**: The class uses the LlavaPhiForCausalLM model for generating text based on multimodal inputs (text, image, and audio).
 
+### Pretraining
+#### Training Logs
+![image](https://github.com/Navyabhat03/ERAV1-CAPSTONE/assets/60884505/11be0ba9-6bd0-47a1-90a6-4a4b4c3314fa)
+
+### Finetuning
+#### Training Logs
+![image](https://github.com/Navyabhat03/ERAV1-CAPSTONE/assets/60884505/800fef1d-a97b-4014-b505-42a53284e748)
+
+### Results
+#### Text & Image:
+![Screenshot (374)](https://github.com/Navyabhat03/ERAV1-CAPSTONE/assets/60884505/019dad79-c6db-424e-a7a7-bed6a09612aa)
+
+![Screenshot (373)](https://github.com/Navyabhat03/ERAV1-CAPSTONE/assets/60884505/12dbc4c5-bd0f-4694-8a85-934f46d9cab9)
+
+#### Audio & Image:
+**Question Asked: Describe the image in one line**
+![Screenshot (375)](https://github.com/Navyabhat03/ERAV1-CAPSTONE/assets/60884505/a252eca5-d764-4614-96e6-3595538e2cdd)
+
 ### Customization
 You can customize various parameters such as model name, temperature, and max tokens during the initialization of *MultiModalPhi2*.
 
 ### Limitations
 - The effectiveness depends on the quality and relevance of input data.
 - The model size and computational requirements might be significant due to the complexity of multimodal processing.
-
-
-### Pretraining
-#### Training Logs
-![image](https://github.com/RaviNaik/ERA-CAPSTONE/assets/23289802/76543d98-d9fe-4c1a-ac47-3d06e48053ad)
-
-### Finetuning
-#### Training Logs
-![image](https://github.com/RaviNaik/ERA-CAPSTONE/assets/23289802/2747acce-bc99-4c37-a05a-d5e81cb9aa9d)
-
-### Results
-![image](https://github.com/RaviNaik/ERA-CAPSTONE/assets/23289802/f12a9f04-df32-413e-b957-774c30381b2b)
-
-### Deployed on HF
-#### Text & Image:
-![image](https://github.com/RaviNaik/ERA-CAPSTONE/assets/23289802/485a2806-81ac-4229-97ee-87f58af578bc)
-![image](https://github.com/RaviNaik/ERA-CAPSTONE/assets/23289802/ae2c14c4-6949-4fff-b2fb-cb37a29eac33)
-
-#### Audio & Image:
-**Question Asked: How many people are there in this image?**
-![image](https://github.com/RaviNaik/ERA-CAPSTONE/assets/23289802/430310fc-1df9-459c-94f3-32d9691a1035)
-![image](https://github.com/RaviNaik/ERA-CAPSTONE/assets/23289802/fd30a864-b289-469a-9c85-b6fd02f486a9)
-On HF Space:
-![image](https://github.com/RaviNaik/ERA-CAPSTONE/assets/23289802/efefee6e-98ee-4658-b2e9-f18d8f82a234)
-
